@@ -35,8 +35,8 @@ body * {
 }
 
 /* links */
-#links{
- padding: 24px 0;
+#links {
+  padding: 24px 0;
 }
 
 ul {
@@ -74,6 +74,19 @@ ul li a:hover {
   padding: 24px 0;
   font-size: 40px;
   display: flex;
-  gap: 16px;
   justify-content: center;
+}
+
+#social-links a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 16px;
+  transition: background 0.3s;
+  border-radius: 50%;
+}
+
+#social-links a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
 }
